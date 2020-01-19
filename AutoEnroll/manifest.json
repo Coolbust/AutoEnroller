@@ -1,0 +1,15 @@
+
+{
+	"name": "Auto Enroll Extension",
+	"version": "1.0",
+	"description": "Auto Enroll on myUCSC",
+	
+	"browser_action": {
+      "default_popup": "popup.html"
+    },
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"manifest_version": 2
+}
